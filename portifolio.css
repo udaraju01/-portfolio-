@@ -550,29 +550,24 @@ body{
 } 
  .projects-content{
     display: flex;
-    margin-top: 5%;
-    padding-left: 90px;
-
-   
+    margin-top: 5%; 
 } 
 
 .projects-content p{
-   
    color:#ffd500;
    font-size: 17px;
    text-align: center;
 
 }
 .projects-content .row{
-     position: relative;
-     overflow: hidden; 
-    border-radius: 8px;
     cursor: pointer; 
     margin: 20px;
+    align-items: center;
+
  
 } 
  .row img{
-    width:100%;
+    width:400px;
     height: 250px;
     border-radius: 8px;
 }
