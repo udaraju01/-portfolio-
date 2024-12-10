@@ -40,3 +40,19 @@ circles.forEach(elem=>{
 
 })
 
+//react
+document.addEventListener('DOMContentLoaded', () => {
+  const redirectButton = document.getElementById('reactApp');
+  redirectButton.addEventListener('click', () => {
+      window.location.href = 'https://udaraju01.github.io/e-commerce-application-react/';
+  });
+});
+
+
+//javascript
+document.addEventListener('DOMContentLoaded', () => {
+  const redirectButton = document.getElementById('javascript');
+  redirectButton.addEventListener('click', () => {
+      window.location.href = 'https://udaraju01.github.io/Traveling/';
+  });
+});

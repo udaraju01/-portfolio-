@@ -547,21 +547,33 @@ body{
     background-size: cover;
     background-position: center;
     padding: 70px 10% 4%;
-}
-
+} 
  .projects-content{
     display: flex;
-    margin-top: 13%;
+    margin-top: 5%;
+    padding-left: 90px;
+
    
+} 
+
+.projects-content p{
+   
+   color:#ffd500;
+   font-size: 17px;
+   text-align: center;
+
 }
-.row{
+.projects-content .row{
      position: relative;
      overflow: hidden; 
     border-radius: 8px;
     cursor: pointer; 
-}
-.row img{
-    width: 90%;
+    margin: 20px;
+ 
+} 
+ .row img{
+    width:100%;
+    height: 250px;
     border-radius: 8px;
 }
 .contact{
